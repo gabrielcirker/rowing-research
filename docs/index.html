@@ -1,6 +1,6 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Gabriel Cirker’s rowing energy-transfer research: current report, reproducible models, synthetic demonstrations, and a versioned research archive."><title>Rowing Energy Transfer | Gabriel Cirker</title><link rel="stylesheet" href="assets/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="wrap"><a class="brand" href="index.html">Gabriel Cirker <span>/ Research</span></a><nav aria-label="Main navigation"><a href="index.html#overview">Overview</a><a href="index.html#report">Report</a><a href="index.html#work">Code &amp; figures</a><a href="archive.html">Archive ↗</a></nav></div></header><main id="main"><section class="hero"><div class="wrap"><div class="hero-grid"><div><div class="eyebrow">Computational mechanics · Research collection</div><h1>Understanding the energy<br>of a rowing stroke.</h1><p>From a cycle-resolved thrust–drag model to moving-mass dynamics and synthetic sensing. A transparent record of the research, its limitations, and the work behind it.</p><p class="author">Gabriel Cirker · Revised November 2026</p><p class="affiliation">Original manuscript: St. John’s University (2025).<br><small>Revision affiliation: University of Michigan, Ann Arbor (2026).</small></p><div class="actions"><a class="button light" href="#report">Read the report ↓</a><a class="button ghost" href="archive.html">Explore the archive</a></div></div><figure class="hero-chart"><img src="work/figures/speed_plot.png" alt="Baseline simulated boat velocity over the 20-second startup"><figcaption>Periodic thrust produces a cycle of acceleration and coasting.</figcaption></figure></div><div class="stats"><div class="stat"><strong>20 s</strong><span>Illustrative startup simulation</span></div><div class="stat"><strong>5.785 m/s</strong><span>Average speed, last half</span></div><div class="stat"><strong>141.2 kJ</strong><span>Modeled thrust work</span></div><div class="stat"><strong>6.49%</strong><span>Startup kinetic-energy fraction</span></div></div></div></section>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Gabriel Cirker’s rowing energy-transfer research: current report, reproducible models, synthetic demonstrations, and a versioned research archive."><title>Rowing Energy Transfer | Gabriel Cirker</title><link rel="stylesheet" href="assets/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="wrap"><a class="brand" href="index.html">Gabriel Cirker <span>/ Research</span></a><nav aria-label="Main navigation"><a href="index.html#overview">Overview</a><a href="index.html#report">Report</a><a href="index.html#work">Code &amp; figures</a><a href="archive.html">Archive ↗</a></nav></div></header><main id="main"><section class="hero"><div class="wrap"><div class="hero-grid"><div><div class="eyebrow">Computational mechanics · Research collection</div><h1>Understanding the energy<br>of a rowing stroke.</h1><p>From a cycle-resolved thrust–drag model to moving-mass dynamics and synthetic sensing. A transparent record of the research, its limitations, and the work behind it.</p><p class="author">Gabriel Cirker</p><p class="affiliation">Original manuscript: St. John’s University.<br><small>Revision affiliation: University of Michigan, Ann Arbor.</small></p><div class="actions"><a class="button light" href="#report">Read the report ↓</a><a class="button ghost" href="archive.html">Explore the archive</a></div></div><figure class="hero-chart"><img src="work/figures/speed_plot.png" alt="Baseline simulated boat velocity over the 20-second startup"><figcaption>Periodic thrust produces a cycle of acceleration and coasting.</figcaption></figure></div><div class="stats"><div class="stat"><strong>20 s</strong><span>Illustrative startup simulation</span></div><div class="stat"><strong>5.785 m/s</strong><span>Average speed, last half</span></div><div class="stat"><strong>141.2 kJ</strong><span>Modeled thrust work</span></div><div class="stat"><strong>6.49%</strong><span>Startup kinetic-energy fraction</span></div></div></div></section>
 <section id="overview"><div class="wrap"><div class="eyebrow">01 / The question</div><h2>Where does the input work go?</h2><p class="intro">The baseline represents the boat and crew as a single mass under periodic thrust and quadratic resistance. The extensions explore how prescribed crew motion, pitch, and sensing could support a more detailed model.</p><div class="grid"><article class="card"><span class="number">01 · BASELINE</span><h3>Thrust, drag, and speed</h3><p>Track velocity and energy accounting through repeated drive and recovery phases. Compare mass, drag, and stroke-period inputs.</p></article><article class="card"><span class="number">02 · EXTENSIONS</span><h3>Moving mass and pitch</h3><p>Prescribed slide kinematics and a reduced surge–pitch surrogate explore internal motion and numerical consistency.</p></article><article class="card"><span class="number">03 · PROTOTYPES</span><h3>Sensing and identification</h3><p>Synthetic IMU signals, event detection, and parameter fitting provide a testbed for a future measurement workflow.</p></article></div><aside class="note"><strong>Interpretation matters.</strong> The 6.49% ratio is the kinetic-energy gain divided by modeled thrust work during startup. It is not rowing or metabolic efficiency. These are simulations and research prototypes, not measured crew results or validated technique recommendations.</aside></div></section>
-<section id="report" class="soft"><div class="wrap"><div class="section-top"><div><div class="eyebrow">02 / Current manuscript</div><h2>Read the full report.</h2><p class="intro">A Cycle-Resolved Model and a Framework for Disturbance Analysis</p></div><a class="button" href="report/rowing-report.pdf" download>Download PDF · 12 pages</a></div><p class="reader-help">Read every page here. Scroll inside the reader or choose a page. Each page also has an expandable text version.</p><div class="reader"><div class="reader-bar"><label for="page-select">Report page <select id="page-select"><option value="1">1 / 12</option><option value="2">2 / 12</option><option value="3">3 / 12</option><option value="4">4 / 12</option><option value="5">5 / 12</option><option value="6">6 / 12</option><option value="7">7 / 12</option><option value="8">8 / 12</option><option value="9">9 / 12</option><option value="10">10 / 12</option><option value="11">11 / 12</option><option value="12">12 / 12</option></select></label><div><button id="prev-page" type="button">← Previous</button> <button id="next-page" type="button">Next →</button></div><a href="report/report.txt">Plain text</a></div><div class="reader-pages" id="reader-pages" tabindex="0" aria-label="Scrollable full report"><figure class="page" id="page-1"><img src="report/pages/page-01.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 1 of 12"><figcaption>Page 1 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>Simulating Mechanical Energy Transfer in Rowing
+<section id="report" class="soft"><div class="wrap"><div class="section-top"><div><div class="eyebrow">02 / Current manuscript</div><h2>Read the full report.</h2><p class="intro">A Cycle-Resolved Model and a Framework for Disturbance Analysis</p></div><a class="button" href="report/rowing-report.pdf" download>Download PDF · 12 pages</a></div><p class="reader-help">Read every page here. Scroll inside the reader or choose a page. Each page also has an expandable text version.</p><div class="reader"><div class="reader-bar"><label for="page-select">Report page <select id="page-select"><option value="1">1 / 12</option><option value="2">2 / 12</option><option value="3">3 / 12</option><option value="4">4 / 12</option><option value="5">5 / 12</option><option value="6">6 / 12</option><option value="7">7 / 12</option><option value="8">8 / 12</option><option value="9">9 / 12</option><option value="10">10 / 12</option><option value="11">11 / 12</option><option value="12">12 / 12</option></select></label><div><button id="prev-page" type="button">← Previous</button> <button id="next-page" type="button">Next →</button></div><a href="report/report.txt">Plain text</a></div><div class="reader-pages" id="reader-pages" tabindex="0" aria-label="Scrollable full report"><figure class="page" id="page-1"><img src="report/pages/page-01.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 1 of 12"><figcaption>Page 1 of 12</figcaption><details><summary>Read page text</summary><pre>Simulating Mechanical Energy Transfer in Rowing
 A Cycle-Resolved Model and a Framework for Disturbance Analysis
 Gabriel Cirker
 St. John’s University (original manuscript, 2025)
@@ -40,7 +40,7 @@ mdv
 dt = F(t) −kv2.
 (1)
 1
-</pre></details></figure><figure class="page" id="page-2"><img src="report/pages/page-02.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 2 of 12"><figcaption>Page 2 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>For the baseline, m = 766.5 kg, k = 40 kg/m, and the prescribed thrust is 3000 N for 0.9 seconds in
+</pre></details></figure><figure class="page" id="page-2"><img src="report/pages/page-02.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 2 of 12"><figcaption>Page 2 of 12</figcaption><details><summary>Read page text</summary><pre>For the baseline, m = 766.5 kg, k = 40 kg/m, and the prescribed thrust is 3000 N for 0.9 seconds in
 each 2-second cycle, followed by zero thrust. The boat starts from rest. These values are illustrative
 model inputs, not measurements from a crew.
 The model calculates thrust work W =
@@ -98,7 +98,7 @@ The equation is integrated with explicit Euler steps of 0.01 seconds for 20 seco
 average speed over the latter half is 5.785 m/s and the maximum is 6.759 m/s. Thrust work is
 approximately 141.2 kJ, drag work 132.3 kJ and kinetic energy gain 9.17 kJ. The gain is 6.49%
 2
-</pre></details></figure><figure class="page" id="page-3"><img src="report/pages/page-03.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 3 of 12"><figcaption>Page 3 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>of thrust work. The difference of about −316 J in W −D −∆K is a numerical residual from the
+</pre></details></figure><figure class="page" id="page-3"><img src="report/pages/page-03.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 3 of 12"><figcaption>Page 3 of 12</figcaption><details><summary>Read page text</summary><pre>of thrust work. The difference of about −316 J in W −D −∆K is a numerical residual from the
 discrete scheme.
 At a 0.005-second step the residual is about −158 J; at 0.001 seconds it is about −31 J. The
 corresponding latter-half average speeds are 5.782 and 5.781 m/s. This convergence check addresses
@@ -121,7 +121,7 @@ mass comparison changes acceleration and stroke-to-stroke fluctuations as well a
 average. The 20-second averages do not prove that a periodic steady state has been reached. Lower
 drag changes the relationship between thrust, speed and work, so it is not a comparison at equal
 3
-</pre></details></figure><figure class="page" id="page-4"><img src="report/pages/page-04.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 4 of 12"><figcaption>Page 4 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>mechanical power.
+</pre></details></figure><figure class="page" id="page-4"><img src="report/pages/page-04.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 4 of 12"><figcaption>Page 4 of 12</figcaption><details><summary>Read page text</summary><pre>mechanical power.
 The higher-rate case uses a longer fraction of each cycle for the drive and
 therefore changes more than stroke frequency.
 Figure 2: Velocity for baseline and lower drag.
@@ -148,7 +148,7 @@ Position and velocity are
 continuous at the drive–recovery boundary, but acceleration may jump there. This component
 alone does not reproduce the original multibody or IMU figures.
 4
-</pre></details></figure><figure class="page" id="page-5"><img src="report/pages/page-05.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 5 of 12"><figcaption>Page 5 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>Figure 3: Velocity for baseline and lower mass.
+</pre></details></figure><figure class="page" id="page-5"><img src="report/pages/page-05.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 5 of 12"><figcaption>Page 5 of 12</figcaption><details><summary>Read page text</summary><pre>Figure 3: Velocity for baseline and lower mass.
 4.1
 Pitch and disturbance resistance: a proposed surrogate
 A possible extension represents pitch θ with effective inertia, damping, and restoring stiffness:
@@ -179,7 +179,7 @@ speed. This comparison does not establish that reducing hull speed fluctuations 
 race performance: changing technique may alter propulsion, crew motion, and other losses. The
 model makes the energetic assumption explicit rather than providing a coaching prescription.
 5
-</pre></details></figure><figure class="page" id="page-6"><img src="report/pages/page-06.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 6 of 12"><figcaption>Page 6 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>Figure 4: Velocity for two cycle periods with fixed drive duration.
+</pre></details></figure><figure class="page" id="page-6"><img src="report/pages/page-06.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 6 of 12"><figcaption>Page 6 of 12</figcaption><details><summary>Read page text</summary><pre>Figure 4: Velocity for two cycle periods with fixed drive duration.
 4.3
 Extended model and uncertainty
 The moving-mass formulation separates the speed of the hull from the speed of the total center of
@@ -209,7 +209,7 @@ and filter in this project share a positive vertical gravity-at-rest convention,
 mismatch between the earlier synthetic generator and its filter; this is a convention choice, not
 validation of the sensor model.
 6
-</pre></details></figure><figure class="page" id="page-7"><img src="report/pages/page-07.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 7 of 12"><figcaption>Page 7 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>Figure 5: Prescribed thrust profile.
+</pre></details></figure><figure class="page" id="page-7"><img src="report/pages/page-07.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 7 of 12"><figcaption>Page 7 of 12</figcaption><details><summary>Read page text</summary><pre>Figure 5: Prescribed thrust profile.
 5
 Measurement and system identification
 To connect the model to measurements, a future protocol could synchronize a hull-mounted inertial
@@ -239,7 +239,7 @@ The original listing’s synthetic accelerometer uses a
 negative gravity sign while its preprocessing equations assume positive vertical gravity at rest. The
 reconstructed synthetic sensor adopts the filter’s positive vertical gravity at rest; a stationary test
 7
-</pre></details></figure><figure class="page" id="page-8"><img src="report/pages/page-08.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 8 of 12"><figcaption>Page 8 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>checks this convention. Its small-angle planar acceleration approximation is not a validated full
+</pre></details></figure><figure class="page" id="page-8"><img src="report/pages/page-08.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 8 of 12"><figcaption>Page 8 of 12</figcaption><details><summary>Read page text</summary><pre>checks this convention. Its small-angle planar acceleration approximation is not a validated full
 inertial sensor model.
 A reconstructed acceleration-magnitude peak detector was checked on regularly spaced synthetic
 pulses; its peaks are candidate events, not validated catch labels. A separate least-squares prototype
@@ -271,7 +271,7 @@ presented here.
 Figure 6: Synthetic trajectory from the reconstructed moving-mass and pitch surrogate, using
 illustrative manuscript parameters.
 8
-</pre></details></figure><figure class="page" id="page-9"><img src="report/pages/page-09.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 9 of 12"><figcaption>Page 9 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>5.2
+</pre></details></figure><figure class="page" id="page-9"><img src="report/pages/page-09.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 9 of 12"><figcaption>Page 9 of 12</figcaption><details><summary>Read page text</summary><pre>5.2
 Synthetic sensitivity and implementation checks
 The recovery-blend calculation varies the relative contribution of cosine and fifth-order polynomial
 recovery trajectories.
@@ -294,7 +294,7 @@ whose mean is zero by construction; that quantity cannot provide the claimed bet
 dering. An informative cohort comparison would require a fixed reference scale, explicit definitions,
 uncertainty and independent validation.
 9
-</pre></details></figure><figure class="page" id="page-10"><img src="report/pages/page-10.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 10 of 12"><figcaption>Page 10 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>Figure 8: Simulated sensor channels with added synthetic measurement errors.
+</pre></details></figure><figure class="page" id="page-10"><img src="report/pages/page-10.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 10 of 12"><figcaption>Page 10 of 12</figcaption><details><summary>Read page text</summary><pre>Figure 8: Simulated sensor channels with added synthetic measurement errors.
 6
 Reproducibility and validation plan
 The accompanying scripts separate the original single-mass baseline, reconstructed slide and multi-
@@ -320,7 +320,7 @@ that framework, but their parameters and predictions require independent measure
 The
 numerical and synthetic checks support the implementation under the stated assumptions; they do
 10
-</pre></details></figure><figure class="page" id="page-11"><img src="report/pages/page-11.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 11 of 12"><figcaption>Page 11 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>not demonstrate a real-world efficiency gain. Future work should obtain synchronized force, speed,
+</pre></details></figure><figure class="page" id="page-11"><img src="report/pages/page-11.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 11 of 12"><figcaption>Page 11 of 12</figcaption><details><summary>Read page text</summary><pre>not demonstrate a real-world efficiency gain. Future work should obtain synchronized force, speed,
 and inertial data, test sensitivity and identifiability, and evaluate predictions on held-out sessions.
 A
 Model parameters and definitions
@@ -379,7 +379,7 @@ The signal is generated from model states, and the corrupted version adds modele
 and drift. This setup can check whether an analysis pipeline behaves consistently with its own
 assumptions, but it cannot estimate sensor accuracy, environmental variability, or physiological
 11
-</pre></details></figure><figure class="page" id="page-12"><img src="report/pages/page-12.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 12 of 12"><figcaption>Page 12 of 12 · November 2026 revision</figcaption><details><summary>Read page text</summary><pre>effects. In particular, the small-angle filter assumes its acceleration input provides information
+</pre></details></figure><figure class="page" id="page-12"><img src="report/pages/page-12.jpg" width="1010" height="1307" loading="lazy" alt="Rowing research report, page 12 of 12"><figcaption>Page 12 of 12</figcaption><details><summary>Read page text</summary><pre>effects. In particular, the small-angle filter assumes its acceleration input provides information
 about gravity, an assumption that may fail during strong linear acceleration.
 The fitting example estimates two surrogate coefficients while holding other inputs fixed. A
 noiseless fit to data from the same model is an implementation check with a favorable model match.
