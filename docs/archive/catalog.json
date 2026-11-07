@@ -1,0 +1,1087 @@
+[
+  {
+    "name": "README.md",
+    "url": "work/README.md",
+    "status": "Current",
+    "kind": "MD",
+    "sha256": "2e6b554d50310c39ca238b893cd6083cb293d010bfa7b19ecdee8e0d37c041dd",
+    "bytes": 2958,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/adapted_pitch_and_speed.png",
+    "url": "work/figures/adapted_pitch_and_speed.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "6a1720aff1de090f32b3e9a1366ddd49c6085c8f53c6bb58219b8ee5004449e3",
+    "bytes": 103948,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/adapted_smoothness_sweep.png",
+    "url": "work/figures/adapted_smoothness_sweep.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "f54d81c08ba7fabf98e769b9ce91ff419a63bac01ac921923bf96d610de02401",
+    "bytes": 78033,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/adapted_synthetic_imu.png",
+    "url": "work/figures/adapted_synthetic_imu.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "5ead520d13a3417652202b257a688abdbd29f6f26cf1f1285cfe4f1689d1e9a4",
+    "bytes": 180142,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/drag_effect.png",
+    "url": "work/figures/drag_effect.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "164aca7a5dd7be878399bfe7d5b12cb5ccc65dcbaf0b445d84c45a550cbaf4c8",
+    "bytes": 44966,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/mass_effect.png",
+    "url": "work/figures/mass_effect.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "05361bef1966452e6b690c259b83f90aaaae598ecbea7afd6a20dd20b20ecf09",
+    "bytes": 53061,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/speed_plot.png",
+    "url": "work/figures/speed_plot.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "69acc29544736623c42dad80f6cd82b3c1af522329529696b050a6f43fab8f27",
+    "bytes": 31242,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/stroke_effect.png",
+    "url": "work/figures/stroke_effect.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "fcd5de58b5ec7b36ddd90397a7143da1bd5b56d10094890daf347971f944a88f",
+    "bytes": 49713,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/synthetic_surrogate.png",
+    "url": "work/figures/synthetic_surrogate.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "7f055727c82b30a20645f457eb89a5458478504787fa140e8d82ef44ce9f168a",
+    "bytes": 71858,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "figures/thrust_plot.png",
+    "url": "work/figures/thrust_plot.png",
+    "status": "Current",
+    "kind": "PNG",
+    "sha256": "08594789fe628a0d2a3f60314baa0268cf438810b2575341acec97499b1eb336",
+    "bytes": 21119,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "work/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "status": "Current",
+    "kind": "PDF",
+    "sha256": "8e22d457d3d86e75b961095839a86fb7f3985a4d1c00c811953cb21237b444ee",
+    "bytes": 668935,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "paper/rowing_paper.tex",
+    "url": "work/paper/rowing_paper.tex",
+    "status": "Current",
+    "kind": "TEX",
+    "sha256": "68fd765dfe4f06947db7082207fb16b2fb0be16dbdab4c3c3dc61c11d068a5b9",
+    "bytes": 27899,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "requirements.txt",
+    "url": "work/requirements.txt",
+    "status": "Current",
+    "kind": "TXT",
+    "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "bytes": 23,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "results/rowing_results_summary.txt",
+    "url": "work/results/rowing_results_summary.txt",
+    "status": "Current",
+    "kind": "TXT",
+    "sha256": "3697369daf4f098ec381f6e2d92e3c47a98c7abab8b65918a31826c1e80be772",
+    "bytes": 306,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/appendix_figure_demo.py",
+    "url": "work/src/appendix_figure_demo.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "cb04e1563436eaf7d1e1bc9b3adcc111be8a3c6a481490a2b5f8c3aca7adf170",
+    "bytes": 2132,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/fit_robustness_demo.py",
+    "url": "work/src/fit_robustness_demo.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "f0c3cd1a9a38c0068344b152e45a817d1ee13a0d44c0d0ce25103ec420bf3b19",
+    "bytes": 733,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/imu_processing.py",
+    "url": "work/src/imu_processing.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "fad414890baadb76321bbcbd40f57f5cbd70a96885e47f04a9c0398845d77501",
+    "bytes": 6692,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/multibody_model.py",
+    "url": "work/src/multibody_model.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "88d59c01b9d960553c429ebf35ad2ca424ca28251a89055849b8613d6945d925",
+    "bytes": 2547,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/parameter_fit.py",
+    "url": "work/src/parameter_fit.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "46a334327c283f104550390bf4ae958945c7fe852245a547f5613d2f4a9126e3",
+    "bytes": 1391,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/rowing_analysis.py",
+    "url": "work/src/rowing_analysis.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "7346846d0fdf93db2d4e9f94f3adba35fc5befbb0c7fdcc83985abea7d81c76e",
+    "bytes": 2597,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/rowing_model.py",
+    "url": "work/src/rowing_model.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "da174626b6a2c69338a7673a190bfbf75942fcd206f1bcd2932dd46283f701b0",
+    "bytes": 3345,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/slide_kinematics.py",
+    "url": "work/src/slide_kinematics.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "856aea55cf77dd2d6273ec353341bb195441a9300619c2fa085e62ae15de6923",
+    "bytes": 1750,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/smoothness_sweep.py",
+    "url": "work/src/smoothness_sweep.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "84004f40edfba794b533dcbdd332126be7c298b305e5cfa365519e293bfec388",
+    "bytes": 1536,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "src/synthetic_demo.py",
+    "url": "work/src/synthetic_demo.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "932f1c9dd77b4566257bc088e6f52ad20620669628e5a372487de1fc6be97381",
+    "bytes": 1073,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "tests/test_fit.py",
+    "url": "work/tests/test_fit.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "491a3439298993c98a149a718a0f87d7f36db5519fe5820f16fdfe24937bd4eb",
+    "bytes": 1351,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "tests/test_imu.py",
+    "url": "work/tests/test_imu.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "c008edd71aee271fe0128d2660b2dde99a17965e584c2dfe8c40230f2605ecff",
+    "bytes": 2700,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "tests/test_model.py",
+    "url": "work/tests/test_model.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "9b725a498d6afd449485fdf5777443eb3ba3a6b4ac92cac0fde06fab7e8653cc",
+    "bytes": 880,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "tests/test_multibody.py",
+    "url": "work/tests/test_multibody.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "1f944227ba7e98a1b23ed5eaba919d0f585f14c9dfb7d408746710cb091e0789",
+    "bytes": 1325,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "tests/test_slide.py",
+    "url": "work/tests/test_slide.py",
+    "status": "Current",
+    "kind": "PY",
+    "sha256": "26fa7ea293a4ba4216bf6cd4bfd59a5f2f3f7a0c575a79251640629d6949ec75",
+    "bytes": 1061,
+    "sources": [
+      "Current research revision (November 2026)"
+    ]
+  },
+  {
+    "name": "rowing_model.py",
+    "url": "archive/files/12fd2530ec1f-rowing_model.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "12fd2530ec1f46e3a5af4acdb74b596d830144b56a53498b6f95477df82665ff",
+    "bytes": 7179,
+    "sources": [
+      "Original project: rowing_model.py",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_model.py",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project (1).zip \u2192 rowing_model.py",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project.zip \u2192 rowing_model.py",
+      "rowing_project (1).zip \u2192 rowing_model.py",
+      "rowing_project.zip \u2192 rowing_model.py"
+    ]
+  },
+  {
+    "name": "rowing_results_summary.txt",
+    "url": "archive/files/94f1d8074a90-rowing_results_summary.txt",
+    "status": "Archived",
+    "kind": "TXT",
+    "sha256": "94f1d8074a9030a8bd63895c6e7abe41add0e4ef863af00b3a45b94598f7e237",
+    "bytes": 296,
+    "sources": [
+      "Original project: rowing_results_summary.txt",
+      "Revision backup: original-research-backup/rowing-energy-transfer/results/rowing_results_summary.txt",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project (1).zip \u2192 rowing_results_summary.txt",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project.zip \u2192 rowing_results_summary.txt",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_results_summary.txt",
+      "rowing_project (1).zip \u2192 rowing_results_summary.txt",
+      "rowing_project.zip \u2192 rowing_results_summary.txt"
+    ]
+  },
+  {
+    "name": "speed_plot.png",
+    "url": "archive/files/c4aedc9cfb0e-speed_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "c4aedc9cfb0e9243fef4b233a97b5a5b5ff22680bc90373111f86078c9a8da87",
+    "bytes": 130728,
+    "sources": [
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project (1).zip \u2192 speed_plot.png",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project.zip \u2192 speed_plot.png",
+      "Rowing_paper_full.zip \u2192 speed_plot.png",
+      "rowing_project (1).zip \u2192 speed_plot.png",
+      "rowing_project.zip \u2192 speed_plot.png"
+    ]
+  },
+  {
+    "name": "thrust_plot.png",
+    "url": "archive/files/6cffc6f7c22e-thrust_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "6cffc6f7c22ee047dab7f82c1b8a0958c26be9845f61859129d2c155712ca5bb",
+    "bytes": 99285,
+    "sources": [
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project (1).zip \u2192 thrust_plot.png",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project.zip \u2192 thrust_plot.png",
+      "Rowing_paper_full.zip \u2192 thrust_plot.png",
+      "rowing_project (1).zip \u2192 thrust_plot.png",
+      "rowing_project.zip \u2192 thrust_plot.png"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/279f4a98f6ef-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "279f4a98f6efa1a633f79ee3774e0750d570691c2111043ea8b0a3762c1c86c2",
+    "bytes": 12804,
+    "sources": [
+      "Original project: rowing_paper.tex",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_paper.tex",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project (1).zip \u2192 rowing_paper.tex",
+      "Rowing Research.zip \u2192 Rowing Research/rowing_project.zip \u2192 rowing_paper.tex",
+      "rowing_project (1).zip \u2192 rowing_paper.tex",
+      "rowing_project.zip \u2192 rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "speed_plot.png",
+    "url": "archive/files/8419f8d62e96-speed_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "8419f8d62e960f32f518e3b69972226c4e54adb4f951558c9b6737a510aa56aa",
+    "bytes": 121232,
+    "sources": [
+      "Original project: speed_plot.png",
+      "Rowing Research.zip \u2192 Rowing Research/speed_plot.png"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing.pdf",
+    "url": "archive/files/e500e59a7f90-Simulating-Mechanical-Energy-Transfer-in-Rowing.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "e500e59a7f90249b994d5ead6f82ec1448f33990dc1c00d9e81edb688d505b4b",
+    "bytes": 430423,
+    "sources": [
+      "Original project: Simulating Mechanical Energy Transfer in Rowing.pdf",
+      "Rowing Research.zip \u2192 Rowing Research/Simulating Mechanical Energy Transfer in Rowing.pdf"
+    ]
+  },
+  {
+    "name": "thrust_plot.png",
+    "url": "archive/files/826556c47e7c-thrust_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "826556c47e7cee1c3da3a630edda7f66ff35599b19192fef9d3b6aaa8bfbf544",
+    "bytes": 94075,
+    "sources": [
+      "Original project: thrust_plot.png",
+      "Rowing Research.zip \u2192 Rowing Research/thrust_plot.png"
+    ]
+  },
+  {
+    "name": "main.tex",
+    "url": "archive/files/db75e6726493-main.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "db75e67264930df78bcd334b293ca8aae1b556cb793cef7c0139983d3f1a88fc",
+    "bytes": 217,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 main.tex"
+    ]
+  },
+  {
+    "name": "references.bib",
+    "url": "archive/files/346b42a485ef-references.bib",
+    "status": "Archived",
+    "kind": "BIB",
+    "sha256": "346b42a485ef1e8291e8a0d884cd748c89e4d7a00cccaa5ca6a808e6268244d6",
+    "bytes": 7106,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 references.bib"
+    ]
+  },
+  {
+    "name": "rowing_paper_full.tex",
+    "url": "archive/files/6188960ea2e5-rowing_paper_full.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "6188960ea2e5a4db6e4fa42ebe67a149960761beec2c0b47db84e1b465f6e7d2",
+    "bytes": 63507,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 rowing_paper_full.tex"
+    ]
+  },
+  {
+    "name": "efficiency_contour.png",
+    "url": "archive/files/99dbaf5ef1b2-efficiency_contour.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "99dbaf5ef1b2603a80ebd3952bf3b96622b4621ab2291000c2a3495b18dbc146",
+    "bytes": 109156,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 efficiency_contour.png"
+    ]
+  },
+  {
+    "name": "drag_effect.png",
+    "url": "archive/files/a39c9db79fdc-drag_effect.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "a39c9db79fdcdae1ea26e77381cedc941c25b897e5eaf34431e7924ad4e6a64e",
+    "bytes": 83756,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 drag_effect.png"
+    ]
+  },
+  {
+    "name": "mass_effect.png",
+    "url": "archive/files/32dd32cb07e0-mass_effect.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "32dd32cb07e004beaeb0769a0a658ce553d5aa98a35ddb5a68e1b919851430a4",
+    "bytes": 86810,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 mass_effect.png"
+    ]
+  },
+  {
+    "name": "blade_comparison_plot.png",
+    "url": "archive/files/b2c853f2b71e-blade_comparison_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "b2c853f2b71e06b81296779c00ab184c21039a8cfdd9c7958da798d092ef83ae",
+    "bytes": 96009,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 blade_comparison_plot.png"
+    ]
+  },
+  {
+    "name": "rowing_model.py",
+    "url": "archive/files/ed59311f395e-rowing_model.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "ed59311f395e6cbbce5481f61b12e96e34bd7985c0f592662b95debe0cb30770",
+    "bytes": 6796,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 rowing_model.py"
+    ]
+  },
+  {
+    "name": "rowing_advanced_models.py",
+    "url": "archive/files/fcb8355704fc-rowing_advanced_models.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "fcb8355704fcccb50b6fc5ddbf353c030aa0d19c4d1c9ac436567d887b7891b1",
+    "bytes": 6884,
+    "sources": [
+      "Rowing_paper_full.zip \u2192 rowing_advanced_models.py"
+    ]
+  },
+  {
+    "name": "JURPA-format draft (historical contact email removed).pdf",
+    "url": "archive/files/7ee56f00a8d4-Simulating-Mechanical-Energy-Transfer-in-Rowing---JURPA-Format-public-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "8a70cb7b69ffa0b42d773864aaf3867cbd37b352d72b58754fda6fd109172203",
+    "bytes": 1920949,
+    "sources": [
+      "Manuscript archive: Simulating Mechanical Energy Transfer in Rowing - JURPA Format.pdf"
+    ],
+    "publication_note": "Public copy: historical contact email removed; original remains private."
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing 12:9.pdf",
+    "url": "archive/files/adfa4c11730f-Simulating-Mechanical-Energy-Transfer-in-Rowing-12-9.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "adfa4c11730ff43060783cdf78044198eb462abf49a9de3c7eb1b4aa6ed247a3",
+    "bytes": 880437,
+    "sources": [
+      "Manuscript archive: Simulating Mechanical Energy Transfer in Rowing 12:9.pdf",
+      "Manuscript archive: Simulating Mechanical Energy Transfer in Rowing 12_9.pdf"
+    ]
+  },
+  {
+    "name": "Rowing_Project_Updated.pdf",
+    "url": "archive/files/4a02a5433f3a-Rowing_Project_Updated.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "4a02a5433f3aff1445dc3f0f19171f5f16d88e16ce0314f36934f5081a088de7",
+    "bytes": 788491,
+    "sources": [
+      "Manuscript archive: Rowing_Project_Updated.pdf"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Transfer in Rowing - Gabriel Cirker.pdf",
+    "url": "archive/files/3f529944ff9f-Simulating-Mechanical-Transfer-in-Rowing---Gabriel-Cirker.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "3f529944ff9f1fa8d171f125ec225f4590207081276fa2eb6f44e2da53d6df6d",
+    "bytes": 156665,
+    "sources": [
+      "Manuscript archive: Simulating Mechanical Transfer in Rowing - Gabriel Cirker.pdf"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/de10028ece07-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "de10028ece073498c36dbafbb8dfd9e611dafc6b57bf5786fd61878736e47ee1",
+    "bytes": 2749,
+    "sources": [
+      "rowing-research-imu-reconstruction.zip \u2192 rowing-research-revision/README.md"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/8f659a42279d-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "8f659a42279d8fa064318b402184fce5bd4f72b0cbb6954f6f0c07fd448cfc4e",
+    "bytes": 13380,
+    "sources": [
+      "rowing-research-adapted-figures.zip \u2192 rowing-research-revision/paper/rowing_paper.tex",
+      "rowing-research-imu-reconstruction.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "test_imu.py",
+    "url": "archive/files/b391d1aa2fc6-test_imu.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "b391d1aa2fc678d479ee4245236081818db5e76648925e4e690bf0654e2cf3e9",
+    "bytes": 2300,
+    "sources": [
+      "rowing-research-adapted-figures.zip \u2192 rowing-research-revision/tests/test_imu.py",
+      "rowing-research-imu-reconstruction.zip \u2192 rowing-research-revision/tests/test_imu.py"
+    ]
+  },
+  {
+    "name": "multibody_model.py",
+    "url": "archive/files/e91f09df34c9-multibody_model.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "e91f09df34c9738975a21775ce8cf157f68b8652e67003f7f30a30575e5f404c",
+    "bytes": 2406,
+    "sources": [
+      "rowing-research-imu-reconstruction.zip \u2192 rowing-research-revision/src/multibody_model.py",
+      "rowing-research-reconstructed.zip \u2192 rowing-research-revision/src/multibody_model.py",
+      "rowing-research-updated.zip \u2192 rowing-research-revision/src/multibody_model.py"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/46ba23ab03ff-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "46ba23ab03ff0be37e52ca1b2aa28090850c45386811230abb909a63b48c1689",
+    "bytes": 2194,
+    "sources": [
+      "rowing-research-reconstructed.zip \u2192 rowing-research-revision/README.md"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/7a6882d912f6-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "7a6882d912f61464e548dbc33002b92044ed44db58d5e5f4ef74b148be28bd5c",
+    "bytes": 11800,
+    "sources": [
+      "rowing-research-reconstructed.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "test_imu.py",
+    "url": "archive/files/2020c166b01e-test_imu.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "2020c166b01e8783f875d699d7caad418999c13d195de0fc9a97015d60f16273",
+    "bytes": 865,
+    "sources": [
+      "rowing-research-reconstructed.zip \u2192 rowing-research-revision/tests/test_imu.py"
+    ]
+  },
+  {
+    "name": "imu_processing.py",
+    "url": "archive/files/03f038353d04-imu_processing.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "03f038353d046a83521a10f7846f70e25daae2f33723962e6c562a43f4b4b7ec",
+    "bytes": 2092,
+    "sources": [
+      "rowing-research-reconstructed.zip \u2192 rowing-research-revision/src/imu_processing.py"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/0e6015dce899-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "0e6015dce89927f783f16badbefdffb2c49f36a515e148188168dbacec3d2993",
+    "bytes": 14392,
+    "sources": [
+      "rowing-research-audited.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/54adfb516e9a-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "54adfb516e9a7cd45e3da5797dd240a013ae9d5fd40f752e0e58c808be09c8a6",
+    "bytes": 2413,
+    "sources": [
+      "rowing-research-updated.zip \u2192 rowing-research-revision/README.md"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/b826c8a3ea94-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "b826c8a3ea941bf74aa8a111579d6a2f5af1cd102e4038f2819a5baf60c0b5e4",
+    "bytes": 12801,
+    "sources": [
+      "rowing-research-updated.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "test_fit.py",
+    "url": "archive/files/e0947317572c-test_fit.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "e0947317572ca952c407953ae0a12c591f78faeeca1e2f067b7f84bf691ed4e7",
+    "bytes": 643,
+    "sources": [
+      "rowing-research-updated.zip \u2192 rowing-research-revision/tests/test_fit.py"
+    ]
+  },
+  {
+    "name": "test_imu.py",
+    "url": "archive/files/177eb3f0c4cd-test_imu.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "177eb3f0c4cddc4afee958a004ebc5b42a197328d20c788fd9eddfbaee0fae42",
+    "bytes": 1368,
+    "sources": [
+      "rowing-research-updated.zip \u2192 rowing-research-revision/tests/test_imu.py"
+    ]
+  },
+  {
+    "name": "imu_processing.py",
+    "url": "archive/files/ca403a22977d-imu_processing.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "ca403a22977d15b005646dffef7ae6de5b32f0030634c58b9639f9c2516814bb",
+    "bytes": 3392,
+    "sources": [
+      "rowing-research-updated.zip \u2192 rowing-research-revision/src/imu_processing.py"
+    ]
+  },
+  {
+    "name": "requirements.txt",
+    "url": "archive/files/6d4cdf924e8b-requirements.txt",
+    "status": "Archived",
+    "kind": "TXT",
+    "sha256": "6d4cdf924e8b6fe2cf827f647ca740148e2e8b4c44ea31578dbea46cbd403417",
+    "bytes": 17,
+    "sources": [
+      "Revision backup: pre-install-backup/rowing-energy-transfer/requirements.txt",
+      "Revision backup: rowing-energy-transfer/requirements.txt",
+      "research-projects-personal-clean.zip \u2192 rowing-energy-transfer/requirements.txt",
+      "research-projects-personal.zip \u2192 rowing-energy-transfer/requirements.txt",
+      "research-source-revisions.zip \u2192 rowing-research-revision/requirements.txt",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/requirements.txt",
+      "rowing-energy-transfer-personal.zip \u2192 rowing-energy-transfer/requirements.txt",
+      "rowing-research-revision.zip \u2192 rowing-research-revision/requirements.txt"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/03bd158ff457-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "03bd158ff457861fd8f3ceb822414fac1505d5621ee67087084037e51b5a309b",
+    "bytes": 1620,
+    "sources": [
+      "Revision backup: pre-install-backup/rowing-energy-transfer/README.md",
+      "Revision backup: rowing-energy-transfer/README.md",
+      "research-projects-personal-clean.zip \u2192 rowing-energy-transfer/README.md",
+      "research-source-revisions.zip \u2192 rowing-research-revision/README.md",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/README.md",
+      "rowing-energy-transfer-personal.zip \u2192 rowing-energy-transfer/README.md",
+      "rowing-research-revision.zip \u2192 rowing-research-revision/README.md"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/d4176bf49a21-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "d4176bf49a212f510e8eaf0ae021ddd0bf8d8309a7fc754e09c6524e21886f56",
+    "bytes": 145487,
+    "sources": [
+      "Revision backup: pre-install-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+      "research-projects-personal-clean.zip \u2192 rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+      "research-projects-personal.zip \u2192 rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+      "rowing-energy-transfer-personal.zip \u2192 rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/577d44ad955a-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "577d44ad955a754db79a4994af10da5e4f7a99c713683111023bc9c9467c28a4",
+    "bytes": 3200,
+    "sources": [
+      "Revision backup: pre-install-backup/rowing-energy-transfer/paper/rowing_paper.tex",
+      "research-projects-personal-clean.zip \u2192 rowing-energy-transfer/paper/rowing_paper.tex",
+      "research-projects-personal.zip \u2192 rowing-energy-transfer/paper/rowing_paper.tex",
+      "rowing-energy-transfer-personal.zip \u2192 rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/094e36af3ae0-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "094e36af3ae045ee5c352cdcd4c5dd566481e6520b599de469c46b3eccedd7b2",
+    "bytes": 335488,
+    "sources": [
+      "Revision backup: rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/b258ff0abbff-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "b258ff0abbffc2265e3c1861dbf91be4a7f1c3a58ea3ba26b06ddf681128e463",
+    "bytes": 6394,
+    "sources": [
+      "Revision backup: rowing-energy-transfer/paper/rowing_paper.tex",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/830dde284876-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "830dde284876ee84552d7597e2dd715d47693a91cb077f958e7472e06cc6da92",
+    "bytes": 3685150,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+      "Revision backup: pre-expanded-backup/rowing-energy-transfer/paper/original/rowing-original.pdf",
+      "Revision backup: pre-historical-affiliation-backup/rowing-energy-transfer/paper/original/rowing-original.pdf",
+      "Revision backup: pre-publication-draft-backup/rowing-energy-transfer/paper/original/rowing-original.pdf",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/original-paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/cccd3b5f8343-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "cccd3b5f8343cbfba4d6d343ced9548c87621c13bf3b793f551ce89652b91fb4",
+    "bytes": 12857,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/paper/rowing_paper.tex",
+      "Revision backup: pre-expanded-backup/rowing-energy-transfer/paper/original/rowing-original.tex",
+      "Revision backup: pre-historical-affiliation-backup/rowing-energy-transfer/paper/original/rowing-original.tex",
+      "Revision backup: pre-publication-draft-backup/rowing-energy-transfer/paper/original/rowing-original.tex",
+      "rowing-energy-transfer-expanded.zip \u2192 rowing-energy-transfer/original-paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/ee8b61e08635-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "ee8b61e08635deebebf44072d3ce817785fa97feb27c8276d7556ac7e290d99f",
+    "bytes": 358693,
+    "sources": [
+      "rowing-research-revision.zip \u2192 rowing-research-revision/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/da7b6a5000bb-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "da7b6a5000bb855931856a65aa84a21f59cf6dff70addf0b3c06b5940fe9560e",
+    "bytes": 10885,
+    "sources": [
+      "rowing-research-revision.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/25e827fafd8b-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "25e827fafd8bc5f692d063c66be0be3c2133d5934625f8f034520e101a16d240",
+    "bytes": 420899,
+    "sources": [
+      "Revision backup: pre-affiliation-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/1c36be2163aa-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "1c36be2163aa2484f703cc82d37d62a8bd6ce54daa7a421cccfe30d33447144a",
+    "bytes": 14434,
+    "sources": [
+      "Revision backup: pre-affiliation-backup/rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/b028280cf5fe-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "b028280cf5feb8e5c85fef7adc33ec6ac46c88772e167ff520ae943bbacd9f6c",
+    "bytes": 666992,
+    "sources": [
+      "Revision backup: pre-historical-affiliation-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/daa4b6793c79-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "daa4b6793c7969d5a72c4cd74370ebfa80b1293052443bb17b06e0c5f5f233ec",
+    "bytes": 27767,
+    "sources": [
+      "Revision backup: pre-historical-affiliation-backup/rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/17f7f436459b-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "17f7f436459bc3428bc1506af6202423b1c4a85d2a66d54dfacbe8bba97f730b",
+    "bytes": 422377,
+    "sources": [
+      "Revision backup: pre-expanded-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/594e56422a46-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "594e56422a4617991b81c0a59eec39c6f43e464f537548a0a7c13644b11eef13",
+    "bytes": 15183,
+    "sources": [
+      "Revision backup: pre-expanded-backup/rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf",
+    "url": "archive/files/9fedd9896648-Simulating-Mechanical-Energy-Transfer-in-Rowing---Gabriel-Cirker-copy.pdf",
+    "status": "Archived",
+    "kind": "PDF",
+    "sha256": "9fedd9896648f3ea49bc906a4223832ade536b22fd60c3c9d944dc772e6452ac",
+    "bytes": 661436,
+    "sources": [
+      "Revision backup: pre-publication-draft-backup/rowing-energy-transfer/paper/Simulating Mechanical Energy Transfer in Rowing - Gabriel Cirker copy.pdf"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/43450819ff43-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "43450819ff43ac900ef4bf5b8276fbffb6cb3fe2a1ec8d0c182dbea0087d9093",
+    "bytes": 23523,
+    "sources": [
+      "Revision backup: pre-publication-draft-backup/rowing-energy-transfer/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/9164b2b5e8aa-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "9164b2b5e8aa0734081b4848fed48c6b82baecc1083a6535639fdd89e746a4a2",
+    "bytes": 1234,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/README.md"
+    ]
+  },
+  {
+    "name": "speed_plot.png",
+    "url": "archive/files/adb85bafb0a3-speed_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "adb85bafb0a3665b54e1799e3bbeefe0d24866cb94d13c4b591ade8bc7e0ec15",
+    "bytes": 117764,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/figures/speed_plot.png"
+    ]
+  },
+  {
+    "name": "mass_effect.png",
+    "url": "archive/files/3af62f4a660a-mass_effect.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "3af62f4a660af2a567fa74e18ab9e8a4032c7c73625b5579acf66111316cdb71",
+    "bytes": 191623,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/figures/mass_effect.png"
+    ]
+  },
+  {
+    "name": "drag_effect.png",
+    "url": "archive/files/921af0a87ee3-drag_effect.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "921af0a87ee39a654ba27e6c3559a3e5fbed09e0d5ea4ed664d756fcf218f8c8",
+    "bytes": 165621,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/figures/drag_effect.png"
+    ]
+  },
+  {
+    "name": "thrust_plot.png",
+    "url": "archive/files/2d41718f5555-thrust_plot.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "2d41718f5555dfe0972d7be5f01b8896c88257db1feed6a3c5b1e1c114ed39c6",
+    "bytes": 69363,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/figures/thrust_plot.png"
+    ]
+  },
+  {
+    "name": "stroke_effect.png",
+    "url": "archive/files/14325498d16b-stroke_effect.png",
+    "status": "Archived",
+    "kind": "PNG",
+    "sha256": "14325498d16bc3277e11c5564366ba494705d671da3a4ab1787429e85ba2fb0a",
+    "bytes": 175199,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/figures/stroke_effect.png"
+    ]
+  },
+  {
+    "name": "rowing_analysis.py",
+    "url": "archive/files/4aef9d6b4da4-rowing_analysis.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "4aef9d6b4da4ea8e12007499cbc4a8d8b4af8b8d06320c268e1d2b1935bc60b9",
+    "bytes": 2446,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/src/rowing_analysis.py"
+    ]
+  },
+  {
+    "name": "rowing_model.py",
+    "url": "archive/files/bbf7f2091c4d-rowing_model.py",
+    "status": "Archived",
+    "kind": "PY",
+    "sha256": "bbf7f2091c4d2b83bffa17916d842656f7e963e525ef6857a09f3e69ef913da9",
+    "bytes": 3147,
+    "sources": [
+      "Revision backup: original-research-backup/rowing-energy-transfer/src/rowing_model.py"
+    ]
+  },
+  {
+    "name": "rowing_paper.tex",
+    "url": "archive/files/a7615b3add8a-rowing_paper.tex",
+    "status": "Archived",
+    "kind": "TEX",
+    "sha256": "a7615b3add8a2491ef0f7620808b435eb27635d0255c3f75ec8b00a6f3ad0145",
+    "bytes": 11351,
+    "sources": [
+      "research-source-revisions.zip \u2192 rowing-research-revision/paper/rowing_paper.tex"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/a9013a225d31-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "a9013a225d31050d3c4e01430bc52935a3870fd4b7011ed01f28cd10bf43ad9b",
+    "bytes": 1689,
+    "sources": [
+      "research-projects-personal.zip \u2192 rowing-energy-transfer/README.md"
+    ]
+  },
+  {
+    "name": "README.md",
+    "url": "archive/files/2df279107371-README.md",
+    "status": "Archived",
+    "kind": "MD",
+    "sha256": "2df27910737147eb404bc089fd5de94c8c49fd1e16486c87d59ce36dae4c8a37",
+    "bytes": 26,
+    "sources": [
+      "Earlier Git history: README.md"
+    ]
+  }
+]

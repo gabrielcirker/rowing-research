@@ -1,0 +1,270 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue}
+
+\title{Simulating Mechanical Energy Transfer in Rowing\large\\A Simplified Fluid‑Dynamics and Mechanics Model}
+\author{Gabriel Cirker}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Rowing shells are propelled by intermittent strokes of multiple rowers.  During
+the drive phase each rower applies a force through the oar blade, generating
+thrust on the boat, whereas during the recovery the boat coasts and decelerates
+under hydrodynamic resistance.  Understanding the conversion of rower effort
+into boat motion requires a coupled description of the stroke cycle and the
+drag force experienced by the hull.  This study formulates a simple one‑dimensional
+model of a racing shell that balances a prescribed thrust profile against a
+quadratic drag law.  Newton’s second law is integrated numerically over
+multiple strokes to evaluate boat speed, energy input, drag losses and overall
+efficiency.  The model reproduces realistic speeds and demonstrates that
+roughly 6~\% of the mechanical work delivered by the rowers appears as an
+increase in kinetic energy, the remainder being dissipated by drag.  The
+framework illustrates how modest parameter changes influence performance and
+provides an accessible platform for exploring rowing dynamics.
+\end{abstract}
+
+\section{Introduction}
+
+Rowing is both a team sport and a mechanical system: multiple athletes work
+together to convert metabolic energy into forward motion of a lightweight hull.
+The oar blades interact with water and air, imparting momentum to the fluid
+and in turn providing thrust to the boat.  Meanwhile the hull experiences
+hydrodynamic drag that opposes motion.  For an eight–person shell with a
+coxswain (an “8+”), typical component masses are about \SI{655}{\kilogram}
+for the rowers, \SI{89}{\kilogram} for the shell and \SI{22.5}{\kilogram}
+for the oars【779142687997843†L270-L287】, giving a total mass near
+\SI{766}{\kilogram}.  The drag force on such a shell scales approximately
+with the square of its speed; experimental studies have expressed the drag as
+\(F\_d = C v^n\) with exponent between 1.5 and 2【779142687997843†L256-L261】.
+In practice, the constant \(C\) encapsulates both the hydrodynamic and
+aerodynamic contributions and is determined empirically; values around
+9--14 \si{N\,s^2/m^2} have been measured for racing shells【779142687997843†L388-L450】.
+The fundamental drag equation from fluid dynamics is
+\(F\_d = \tfrac{1}{2}\,\rho u^2 c\_d A\), where \(\rho\) is the fluid
+density, \(u\) is the relative flow speed, \(c\_d\) is a dimensionless drag
+coefficient and \(A\) is a reference area【443245353880283†L120-L134】.  When
+combined into a single constant, this expression yields the simple quadratic
+law used here.
+
+This paper develops a minimalist time‑domain model of mechanical energy
+transfer in rowing.  By prescribing a periodic thrust and balancing it
+against quadratic drag, the model predicts speed oscillations over the stroke
+cycle, quantifies energy losses and estimates the efficiency of the stroke.
+
+\section{Mathematical Model}
+
+\subsection{Equations of motion}
+
+Consider a boat of mass \(m\) moving in one dimension with velocity
+\(v(t)\).  The net force on the boat is the difference between the thrust
+applied by the rowers, \(F\_{\text{thrust}}(t)\), and the hydrodynamic
+drag, \(F\_d\).  Newton’s second law gives
+\begin{equation}
+  m\,\frac{\mathrm{d}v}{\mathrm{d}t} = F\_{\text{thrust}}(t) - F\_d(v).
+  \label{eq:newton}
+\end{equation}
+The drag force is approximated by the quadratic law
+\begin{equation}
+  F\_d(v) = k\_\mathrm{d} \, v^2,
+  \label{eq:drag}
+\end{equation}
+where \(k\_\mathrm{d}\) is an empirical constant summarising the factors
+\(\tfrac{1}{2}\rho c\_d A\) in the standard drag equation【443245353880283†L120-L134】.  The exponent of 2 reflects the quadratic
+dependence of drag on speed【443245353880283†L182-L185】.  Experimental
+measurements of 8+ shells suggest \(k\_\mathrm{d}\) values of order
+\numrange{9}{14} \si{N\,s^2/m^2}【779142687997843†L388-L450】; to achieve
+realistic steady‑state speeds in the present model we adopt
+\(k\_\mathrm{d}=\SI{40}{N\,s^2/m^2}\).
+
+\subsection{Thrust model}
+
+Rowers deliver power in pulses.  During the drive phase of each stroke the
+oar blades engage the water and the crew pushes hard against the footplates,
+producing thrust.  During the recovery the blades are feathered and the boat
+coasts.  To capture this behaviour, the thrust is modelled as a square wave
+
+\begin{equation}
+  F\_{\text{thrust}}(t) =
+    \begin{cases}
+      F\_\text{drive}, & 0 \le (t \bmod T) < \tau,\\
+      0, & \tau \le (t \bmod T) < T,
+    \end{cases}
+  \label{eq:thrust}
+\end{equation}
+
+where \(T\) is the stroke period and \(\tau\) is the drive time.  In the
+simulation we take \(T = \SI{2.0}{s}\) and \(\tau = \SI{0.9}{s}\), giving a
+drive‑to‑recovery ratio consistent with on‑water rowing.  The drive force
+\(F\_\text{drive}\) is chosen as \SI{3000}{N}, corresponding to eight rowers
+delivering roughly \SI{375}{N} each during the drive.
+
+\subsection{Energy accounting}
+
+The instantaneous mechanical power supplied by the rowers is \(P\_\text{in} =
+F\_{\text{thrust}}\,v\).  The instantaneous power dissipated by drag is
+\(P\_\text{drag} = F\_d\,v\).  Integrating these quantities over time yields
+the total energy input and total energy lost to drag.  The change in boat
+kinetic energy is \(\Delta E\_k = \tfrac{1}{2} m [v(t\_f)^2 - v(0)^2]\).
+The mechanical efficiency of the stroke cycle is defined as
+
+\begin{equation}
+  \eta = \frac{\Delta E\_k}{E\_\text{input}},
+  \label{eq:efficiency}
+\end{equation}
+
+representing the fraction of rower work that appears as an increase in
+kinetic energy.
+
+\section{Numerical Method}
+
+Equation\,\eqref{eq:newton} is integrated numerically on a uniform time grid
+with step \(\Delta t = \SI{0.01}{s}\).  At each step the thrust
+\eqref{eq:thrust} is evaluated, the drag force is computed from the
+previous velocity using \eqref{eq:drag}, and the acceleration is
+calculated.  An explicit Euler update advances the velocity.  Non‑negativity
+is enforced to avoid artificial reversal during recovery.  The power
+quantities are accumulated at each time step to obtain energy input and
+energy lost to drag.
+
+The simulation runs for \SI{20}{s}, covering ten full strokes.  To
+characterise steady behaviour, average velocity is computed over the second
+half of the time span.  Figures are generated for boat velocity and thrust
+as functions of time.
+
+\section{Results}
+
+\subsection{Speed and thrust profiles}
+
+Figure\,\ref{fig:velocity} shows the boat speed over twenty seconds.
+Starting from rest, the shell accelerates rapidly during the first few
+strokes.  A periodic sawtooth pattern emerges: velocity increases during
+each drive and decays during the recovery as the boat coasts under drag.
+After about six seconds the system approaches a limit cycle with peak
+speed near \SI{6.8}{m/s} and troughs near \SI{4.9}{m/s}.  The average
+velocity over the final ten seconds is \num{5.785}\,\si{m/s},
+corresponding to about \SI{20.8}{km/h}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.85\linewidth]{speed_plot.png}
+  \caption{Boat velocity as a function of time.  The model predicts
+    oscillatory motion, with rapid acceleration during the drive and
+    deceleration during the recovery.  After several strokes the system
+    settles into a limit cycle with an average speed around
+    \SI{5.8}{m/s}.}
+  \label{fig:velocity}
+\end{figure}
+
+Figure\,\ref{fig:thrust} depicts the thrust profile.  The square‑wave
+character reflects the simplified stroke model: rowers apply a constant
+force of \SI{3000}{N} for \SI{0.9}{s} followed by a recovery of
+\SI{1.1}{s}.  This representation neglects finer details of blade
+engagement and release but captures the alternating pattern of work and
+coast.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.85\linewidth]{thrust_plot.png}
+  \caption{Thrust applied by the rowers over time.  The drive portion
+    lasts \SI{0.9}{s} and the recovery \SI{1.1}{s}, producing a
+    sawtooth speed profile as shown in Figure\,\ref{fig:velocity}.}
+  \label{fig:thrust}
+\end{figure}
+
+\subsection{Energy and efficiency}
+
+Table\,\ref{tab:summary} summarises the energy balance for the twenty‑second
+simulation.  The rowers delivered roughly \num{1.41e5}\,\si{J} of mechanical
+energy, of which only about \num{9.17e3}\,\si{J} became an increase in
+kinetic energy.  The rest was dissipated by drag.  The resulting
+mechanical efficiency is therefore only \SI{6.5}{\percent}.  The large
+drag losses emphasise the importance of reducing hull resistance and
+smoothing the stroke to minimise speed fluctuations.
+
+\begin{table}[h]
+  \centering
+  \caption{Summary of simulation results (20 s, 10 strokes).}
+  \label{tab:summary}
+  \begin{tabular}{@{}lrr@{}}
+    \toprule
+    Quantity & Value & Unit \\
+    \midrule
+    Average speed (last 10 s) & 5.785 & m/s \\
+    Maximum speed & 6.759 & m/s \\
+    Total energy input & $1.41\times 10^5$ & J \\
+    Drag energy loss & $1.32\times 10^5$ & J \\
+    Increase in kinetic energy & $9.17\times 10^3$ & J \\
+    Mechanical efficiency & 6.49 & \% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Discussion}
+
+The simplified model captures key features of rowing dynamics: oscillatory
+speed, rapid initial acceleration and a limit cycle speed reached after
+several strokes.  The predicted average speed around \SI{5.8}{m/s}
+aligns with typical racing paces for an eight‑person crew.  The efficiency
+estimate of 6--7 \% is low compared with energy conversion efficiencies in
+cycling or running, reflecting the significant hydrodynamic drag that must
+be overcome.  Real rowing efficiency is highly dependent on stroke timing,
+blade design and hull shape.  Our model uses a constant drag constant of
+\SI{40}{N\,s^2/m^2} tuned to achieve realistic speeds; measured drag
+coefficients can vary widely【779142687997843†L388-L450】 and may be lower
+for well‑designed shells.  The square‑wave thrust model also ignores
+variations in force during the drive and the dynamics of rower body mass
+shifting within the boat.
+
+Nevertheless, the framework illustrates how small changes in parameters
+alter performance.  Increasing the drive force raises both peak and
+average speeds but also accentuates speed oscillations.  Increasing the
+drag coefficient dramatically reduces speed and improves efficiency only
+marginally, because more thrust energy is expended fighting drag.  More
+realistic models could include blade slip, lift forces, crew timing
+differences and elastic energy stored in the boat.  Computational fluid
+dynamics models explicitly calculate blade drag and lift, but their
+complexity often obscures intuition.  The present approach provides a
+transparent, adaptable platform for exploring energy transfer in rowing.
+
+\section{Conclusion}
+
+A simple one‑dimensional model combining periodic thrust and quadratic
+hydrodynamic drag predicts realistic speeds for an eight‑person racing
+shell and quantifies the flow of mechanical energy.  By integrating
+Newton’s equation with an empirical drag law the model reproduces the
+sawtooth speed pattern seen on the water and demonstrates that most of
+the rowers’ work is dissipated by drag.  Despite its simplicity, the
+framework highlights key trade‑offs in boat design and stroke strategy.
+Future work could incorporate variable thrust profiles, rower body
+dynamics and measured drag coefficients to refine the predictions.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{9}
+
+\bibitem{drag_equation}
+  Drag equation.\ \emph{Wikipedia}.  The drag force on an object moving
+  through a fluid is given by \(F\_d = \tfrac{1}{2}\rho u^2 c\_d A\), where
+  \(\rho\) is fluid density, \(u\) velocity, \(A\) reference area and
+  \(c\_d\) is the drag coefficient【443245353880283†L120-L134】.  Accessed
+  6~Dec~2025.
+
+\bibitem{racing_shell_drag}
+  J.~G.~Buckmann and S.~D.~Harris.\ An experimental determination of the drag
+  coefficient of a Mens~8+ racing shell.\ \emph{SpringerPlus}, 3:512, 2014.\
+  The study measured masses for rowers (\SI{655}{kg}), shell (\SI{89}{kg}) and
+  oars (\SI{22.5}{kg})【779142687997843†L270-L287】 and noted that the drag force
+  on a racing shell can be expressed as a constant times speed to a power
+  between 1.5 and 2【779142687997843†L256-L261】.  Average drag coefficients
+  around 10 were reported across trials【779142687997843†L388-L450】.
+
+\end{thebibliography}
+
+\end{document}

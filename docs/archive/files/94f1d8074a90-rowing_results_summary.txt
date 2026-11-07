@@ -1,0 +1,9 @@
+Rowing simulation results
+==========================
+Total simulation time: 20.00 s
+Average velocity (last half): 5.785 m/s
+Maximum velocity: 6.759 m/s
+Total energy input by rowers: 141175.7 J
+Energy dissipated by drag: 132324.8 J
+Change in kinetic energy: 9167.0 J
+Mechanical efficiency: 6.49 %
